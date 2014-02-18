@@ -9,7 +9,7 @@
         </div>
         <div class="modal-footer">
             <span class="muted pull-left">
-                <i class="icon-move"></i> drag here to reposition
+                <i class="fa fa-arrows"></i>drag me to reposition
             </span>
             {{> _tutorial_buttons}}
         </div>
@@ -20,19 +20,19 @@
     <div class="btn-group">
         {{#if prevEnabled}}
         <button class="btn btn-warning action-tutorial-back">
-            <i class="icon-white icon-arrow-left"></i> Back
+            <i class="fa fa-arrow-left"></i> Back
         </button>
         {{/if}}
 
         {{#if nextEnabled}}
         <button class="btn btn-primary action-tutorial-next">
-            Next <i class="icon-white icon-arrow-right"></i>
+            Next <i class="fa fa-arrow-right"></i>
         </button>
         {{/if}}
 
         {{#if finishEnabled}}
         <button class="btn btn-success action-tutorial-finish">
-            Finish <i class="icon-white icon-ok"></i>
+            Finish <i class="fa fa-check"></i>
         </button>
         {{/if}}
     </div>
